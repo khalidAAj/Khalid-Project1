@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">khalid ghassan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assest/khalid pic 2.png" style="float: right;">
+        </div>
+    </section>
+    <div class="section__text">
+        <p class="section__text__p1">Welcome To My Website</p>
+        <h1 class="title">Hello, I'M Khalid , a</h1>
+        <h1 class="title-2"> UI UX design.</h1>
+        <p class="section__text__p2"> </p>
+        <div class="btn-container">
+        </div>
+    </div>
+    
+                <button class="btn btn-color-2" onclick="window.open('./assest')" >
+               See My Project</button>
+            </div>
+                <button class="btn btn-color-1" onclick="window.location.href='./#contact'" >
+               Contact info
+            </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assest/download.png" alt="My Linkedin Profile" class="icon_3"
+                        onclick="window.location.href='http://linkedin.com/'">
+                    <img src="./assest/images.png" alt="Home"
+                        class="icon"    
+                        onclick="window.location.href='http://github.com/'">
+                </div>
+            </div>
+    </section>
+    <nav id="personality-nav">
+        <div class="logo">khalid ghassan</div>
+        <div class="personality-menu">
+            <div class="personality-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About me</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+    <div class="content">
+        <div id="project-description" class="project-description-hidden">
+            <p>
+                As a UI/UX Designer, I am passionate about crafting seamless and delightful user experiences.
+            </p>
+            <p class="extra-content">
+                My role extends beyond creating visually appealing interfaces; I am dedicated to understanding user needs and behavior to design intuitive and effective digital solutions.
+        </div>
+        <script src="script.js"></script>
+        <button id="see-more-button" onclick="toggleDescription()">See more</button>
+    </div>
+
+</body>
+</html>
